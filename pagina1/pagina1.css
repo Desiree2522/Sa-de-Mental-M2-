@@ -1,0 +1,24 @@
+*{
+      background-color: rgb(213, 240, 240);
+      margin: 0;
+      color: rgb(12, 12, 12);
+      box-sizing: border-box;
+}
+
+h2 {
+   text-align: center;
+    font-size: 100px;
+}
+
+p {
+   font-size: 250%;
+}
+
+section {
+   display: grid;
+   place-items:  center;
+   align-items: center;
+   min-height: 100vh;
+
+}
+
