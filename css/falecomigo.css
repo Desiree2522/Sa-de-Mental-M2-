@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: hsla(199, 29%, 55%, 0.815);
+    margin: 0;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .icon-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .icon {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .icon i {
+    font-size: 36px;
+    color: #555;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+
+  .navegacao {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(245, 245, 245, 0.918);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    box-shadow: 0 2px 4px rgba(255, 4, 4, 0.1);
+    z-index: 1000;
+  }
+  
+  .navegacao ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    
+  }
+  
+  li{
+  list-style: none;
+  }
+  
+  .navegacao a {
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    transition: color 0.2s ease;
+  }
+  
+  .navegacao a:hover {
+    color: #666;
+  }
+
+  .titulo {
+    padding: 50px;
+  }
