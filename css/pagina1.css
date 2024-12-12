@@ -41,7 +41,7 @@ section {
 
 .avatar {
   height: 200px;
-  background-color: blueviolet;
+  background-color: rgb(103, 105, 197);
   border-radius: 10px;
   margin: 5px;
 }
