@@ -90,71 +90,14 @@ list-style: none;
   color: #666;
 }
 
-
-<<<<<<< HEAD
  #home{
   margin-top: 100px;
   margin-left: 10px;
  }
 
- #score{
- 
-  
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.897);
-  
- }
+
 
  
-=======
-
-.container-title h3 {
-  font-size: 30px;
-  margin-left: 0;
-  text-align: left;
-}
-
-.container-title ul {
-  font-size: 25px;
-  text-align: left;
-  margin-left: 0;
-  font-weight: bold;
-  padding-left: 0;
-}
 
 
 
-.section1 {
-  height: 1rem;
-}
-
-
-.section-colums {
-  display: grid;
-  grid-template-columns: auto auto;
-}
-
-.div-text p {
-  font-size: 25px;
-  padding: 1rem 0rem;
-  font-weight: bold;
-  width: 500px;
-}
-
-.div-img img {
-  width: 340px;
-}
-
-.container-title h1 {
-  font-size: 37px;
-  text-align: center;
-  padding: 4rem 0rem ;
-}
-
-.div-text-causas {
-  font-size: 25px;
-  padding: 1rem 0rem;
-  font-weight: bold;
-  width: 1060px;
-}
->>>>>>> c79900a5c588ae66a6b4d5fdaad12d3a057a1148
