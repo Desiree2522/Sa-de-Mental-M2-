@@ -21,10 +21,14 @@ body {
     padding: 20px;
     border-radius: 10px;
   }
+
+  .icon:hover {
+    background-color: #c4c1c1;
+  }
   
   .icon i {
     font-size: 36px;
-    color: #555;
+    color: #3d3b3b;
   }
   
   .button-container {
@@ -34,7 +38,7 @@ body {
   }
   
   .button {
-    background-color: #4CAF50;
+    background-color: #999898;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -80,6 +84,29 @@ body {
     color: #666;
   }
 
-  .titulo {
+  .title {
     padding: 50px;
   }
+
+  .icon-container{
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.animate {
+    opacity: 1;
+}
+
+.icon-container {
+  opacity: 0;
+  filter: blur(15px);
+  transform: translateX(-100%);
+  transition: all 3s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+  transition: all 3s;
+}
